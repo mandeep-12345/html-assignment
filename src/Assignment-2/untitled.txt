@@ -1,11 +1,8 @@
-/* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
 }
-.header-box{
+.header_Box{
     width: 100%;
     height: 25%;
     display: block;
@@ -13,7 +10,7 @@ height: 100%;
     margin: 10px 10px 0px;
     padding: 0.25%;
 }
-.box1{
+.Box1{
     width: 96.5%;
     height: 15%;
     display: inline-block;
@@ -22,17 +19,16 @@ height: 100%;
     padding: 1%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: red;
+    background-color: aqua;
 }
-.app-logo{
+.Logo{
     width: 25%;
     height: 25%;
-    border-radius: 30px;
+    border-radius:30px ;
     float: left;
     padding-left: 2%;
-
 }
-.app-search-form{
+.Search_bar{
     position: absolute;
     right: 3%;
     padding-right: 10.5%;
@@ -42,23 +38,23 @@ height: 100%;
     border-radius: 10px;
     font-size: larger;
 }
-.nav-box{
+.navigation_Box2{
     width: 96.5%;
-    height: 100%;
+    height: 10%;
     display: block;
     border: 2px solid;
     margin: 10px;
+    /* padding: 1%; */
     padding-top: 3%;
-    padding-bottom: 2%;
+    /* padding-bottom: 2%;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-end; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10%;
-
 }
-.box2{
+.Box2{
     width: 100.5%;
     height: 100%;
     margin: 10px;
@@ -67,18 +63,18 @@ height: 100%;
     border-left: 2px solid;
     border-right: 2px solid;
 }
-.left-column{
+.Left_col{
     width: 15%;
-    height: 81%;
+    height:81%;
     margin: 10px;
     display: inline-block;
     border: 2px solid;
     padding: 0.25%;
-    line-height: 288%;
+    line-height: 300%;
 }
-.right-column{
+.Right_col{
     width: 15%;
-    height: 81%;
+    height:81%;
     margin: 10px;
     display: inline-block;
     border: 2px solid;
@@ -87,7 +83,7 @@ height: 100%;
     right: 0%;
     line-height: 300%;
 }
-.mid-column{
+.Center_col{
     width: 62.5%;
     height: 81%;
     margin: 10px;
@@ -95,8 +91,7 @@ height: 100%;
     border: 2px solid;
     padding: 0.25%;
     position: absolute;
-    right: 16.25%;
-    top: 295px;
+    right: 17.25%;
 }
 .row1{
     padding-top: 1%;
@@ -113,7 +108,6 @@ height: 100%;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10%;
-    
 }
 .footer{
     width: 100.5%;
@@ -122,7 +116,6 @@ height: 100%;
     border-left: 2px solid;
     border-bottom: 2px solid;
     border-right: 2px solid;
-
 }
 #page-footer{
     margin: 10px 10px 10px;
@@ -130,4 +123,4 @@ height: 100%;
     border: 2px solid;
     display: inline-block;
     font-size: larger;
-} 
+} (edited) 
