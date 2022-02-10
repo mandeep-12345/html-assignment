@@ -7,21 +7,31 @@ height: 100%;
 }
 .row{
     color: red;
-    width: 90%;
+    width: 100%;
     font-size: large;
     display: block;
     border: solid;
-    margin: 10px;
+    margin: 5px;
     
 }
 .col{
     height: 50%;
-    width: 40%;
+    width: 48%;
     display: inline-block;
-    margin: 30px;
+    margin: 10px;
 }
 .img{
     width: 100%;
     height: 100%;
     border: springgreen;
+    position: absolute;
+    right: 10px;
+}
+.my-list{
+    position: absolute;
+    top: 40px;
+    border: 3px solid green;
+    text-align: center;
+    position: absolute;
+    left: 180px;
 }
