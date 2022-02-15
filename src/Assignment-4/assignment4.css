@@ -62,11 +62,13 @@ nav li:hover{
     margin: 25px;
     
     
+    
 }
 .btn:hover{
     padding: 5px 10px;
     background: #3f8da7;
-    color: white;
+    color: red;
+    border-radius: 50%;
     
     
    

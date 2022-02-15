@@ -21,14 +21,16 @@ height: 100%;
     vertical-align: top;
 }
 .btn{
-    background: black;
-    border: 1px solid white;
-    color: white;
+    background: white;
+    border: 3px double black;
+    color: blue;
     height: 40px;
     width: 150px;
     padding: 15px;
     vertical-align: middle;
     margin: -30px;
+    border-radius: 60%;
+
 }
 .right-inline{
     height: inherit;
